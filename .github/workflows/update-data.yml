@@ -20,6 +20,8 @@ on:
 jobs:
   update-data:
     uses: EqualStreetNames/equalstreetnames/.github/workflows/reusable-update-date.yml@master
+    permissions:
+      contents: write
     secrets: inherit
     with:
       city:
