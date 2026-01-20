@@ -45,10 +45,19 @@ jobs:
           mkdir -p parent/cities/israel
           ln -s $GITHUB_WORKSPACE/city parent/cities/israel/tel-aviv
 
-      - name: Install Node dependencies
+      - name: Apply MapLibre patches
         run: |
           cd parent/website
-          npm install
+
+          # Update package.json to use MapLibre instead of Mapbox
+          npm install maplibre-gl@^5.0.0
+          npm uninstall mapbox-gl || true
+
+          # Add Tel Aviv build script
+          npm pkg set scripts.build:israel:tel-aviv="node build.js -c israel/tel-aviv"
+
+          # Copy patched map.ts with MapLibre support
+          cp $GITHUB_WORKSPACE/city/.github/patches/map.ts src/script/map.ts
 
       - name: Build website
         run: |
