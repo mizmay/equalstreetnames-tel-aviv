@@ -20,7 +20,7 @@ export default async function (): Promise<Map> {
   const options: MapboxOptions = {
     container: 'map',
     hash: true,
-    style: typeof style !== 'undefined' ? style : 'https://tiles.openfreemap.org/styles/liberty'
+    style: typeof style !== 'undefined' ? style : 'https://tiles.openfreemap.org/styles/positron'
   };
 
   if (typeof center !== 'undefined' && typeof zoom !== 'undefined') {
