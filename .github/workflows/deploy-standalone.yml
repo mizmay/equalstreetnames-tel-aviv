@@ -65,6 +65,7 @@ jobs:
           npm run build:israel:tel-aviv
         env:
           NODE_ENV: production
+          PUBLIC_URL: /equalstreetnames-tel-aviv
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
