@@ -1,0 +1,57 @@
+name,source,gender,wikidata,type
+"גשר יהודית",wikidata,+,Q311583;Q18910588,way
+"גשר יצחק נבון",wikidata,+,Q311583;Q18910588,way
+אילת,wikidata,-,Q134762,way
+"ביל""ו",wikidata,-,Q863392,way
+החשמונאים,wikidata,-,Q496922,way
+המסגר,wikidata,-,Q1639825,way
+"כיכר הבימה",wikidata,-,Q1062617,relation+way
+"כיכר המדינה",wikidata,-,Q801,way
+"כיכר השוטר",wikidata,-,Q384593,way
+"כיכר השעון",wikidata,-,Q2919379,relation
+"נחלת בנימין",wikidata,-,Q1812965,way
+"שדרות קק""ל",wikidata,-,Q696658,way
+"بحر الشام",wikidata,-,Q81483,relation
+"ברכה פולד",wikidata,F,Q216505,way
+"גשר אוסישקין",wikidata,F,Q2507113,way
+"כיכר דיזנגוף",wikidata,F,Q7002793,relation
+"אבן גבירול",wikidata,M,Q239355,way
+"אחד העם",wikidata,M,Q380425,way
+"אליעזר קפלן",wikidata,M,Q1329314,way
+בוגרשוב,wikidata,M,Q1058957,way
+ביאליק,wikidata,M,Q359705,way
+"בן יהודה",wikidata,M,Q181728,relation+way
+"גשר ווקופ",wikidata,M,Q2865379,way
+"דוד רזיאל",wikidata,M,Q977292,way
+דיזנגוף,wikidata,M,Q114866,way
+"דרך נמיר",wikidata,M,Q2909456,way
+"היינריך היינה",wikidata,M,Q44403,way
+"המלך ג'ורג'",wikidata,M,Q269412,way
+"המלך ג׳ורג׳",wikidata,M,Q269412,way
+"חיים לבנון",wikidata,M,Q2908941,way
+טוסקניני,wikidata,M,Q13003,way
+"יגאל אלון",wikidata,M,Q319015,way
+"יוסף קארו",wikidata,M,Q467148,way
+"כיכר ביאליק",wikidata,M,Q359705,relation
+"כיכר רבין",wikidata,M,Q34060,relation
+"ככר מסריק",wikidata,M,Q78492,way
+לוינסקי,wikidata,M,Q7017172,way
+לסקוב,wikidata,M,Q1058998,way
+מונטיפיורי,wikidata,M,Q733118,relation+way
+"מזא""ה",wikidata,M,Q4274489,way
+"מנהרת אריה לובה אליאב",wikidata,M,Q658086,way
+"מנחם בגין",wikidata,M,Q130873,way
+"משה איסרליש",wikidata,M,Q1949189,way
+"משה דיין",wikidata,M,Q188783,way
+"משה סנה",wikidata,M,Q1338975,way
+"פנחס רוזן",wikidata,M,Q1389085,way
+"רחבת פלומר",wikidata,M,Q336040,way
+"רחוב יפת",wikidata,M,Q200637,relation
+"שאול המלך",wikidata,M,Q28730,way
+"שדרות דוד בן גוריון",wikidata,M,Q37610,way
+"שדרות ח""ן",wikidata,M,Q359705,way
+"שדרות רוטשילד",wikidata,M,Q467167,way
+"שדרות רוקח",wikidata,M,Q129676,way
+שינקין,wikidata,M,Q12409293,way
+שלוש,wikidata,M,Q4694981,way
+"שמעון בר יוחאי",wikidata,M,Q557405,way

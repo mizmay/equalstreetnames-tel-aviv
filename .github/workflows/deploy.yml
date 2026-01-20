@@ -12,5 +12,5 @@ jobs:
     uses: EqualStreetNames/equalstreetnames/.github/workflows/reusable-deploy.yml@master
     secrets: inherit
     with:
-      country:
-      city:
+      country: israel
+      city: tel-aviv
