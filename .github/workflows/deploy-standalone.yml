@@ -53,11 +53,14 @@ jobs:
           npm install maplibre-gl@^5.0.0
           npm uninstall mapbox-gl || true
 
-          # Add Tel Aviv build script
+          # Add Tel Aviv build script with public-url for GitHub Pages
           npm pkg set scripts.build:israel:tel-aviv="node build.js -c israel/tel-aviv"
 
           # Copy patched map.ts with MapLibre support
           cp $GITHUB_WORKSPACE/city/.github/patches/map.ts src/script/map.ts
+
+          # Patch build.js to add --public-url flag for Parcel
+          sed -i "s/parcel build/parcel build --public-url \/equalstreetnames-tel-aviv/" build.js
 
       - name: Build website
         run: |
@@ -65,7 +68,6 @@ jobs:
           npm run build:israel:tel-aviv
         env:
           NODE_ENV: production
-          PUBLIC_URL: /equalstreetnames-tel-aviv
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
