@@ -1,0 +1,77 @@
+name: Deploy Standalone
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [add-maplibre-option]
+    paths:
+      - 'data/**'
+      - 'html/**'
+      - 'assets/**'
+      - '.github/workflows/deploy-standalone.yml'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v6
+        with:
+          path: city
+
+      - name: Checkout parent repository
+        uses: actions/checkout@v6
+        with:
+          repository: EqualStreetNames/equalstreetnames
+          path: parent
+          ref: master
+
+      - name: Initialize website submodule
+        run: |
+          cd parent
+          git submodule update --init website
+
+      - name: Link city as submodule
+        run: |
+          mkdir -p parent/cities/israel
+          ln -s $GITHUB_WORKSPACE/city parent/cities/israel/tel-aviv
+
+      - name: Install Node dependencies
+        run: |
+          cd parent/website
+          npm install
+
+      - name: Build website
+        run: |
+          cd parent/website
+          npm run build:israel:tel-aviv
+        env:
+          NODE_ENV: production
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: parent/website/dist/israel/tel-aviv
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
