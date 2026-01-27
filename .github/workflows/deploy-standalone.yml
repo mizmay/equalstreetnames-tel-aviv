@@ -45,6 +45,11 @@ jobs:
           mkdir -p parent/cities/israel
           ln -s $GITHUB_WORKSPACE/city parent/cities/israel/tel-aviv
 
+      - name: Install dependencies
+        run: |
+          cd parent/website
+          npm install
+
       - name: Configure build
         run: |
           cd parent/website
