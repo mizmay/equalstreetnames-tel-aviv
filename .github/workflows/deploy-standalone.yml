@@ -1,0 +1,87 @@
+name: Deploy Standalone
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - 'data/**'
+      - 'html/**'
+      - 'assets/**'
+      - '.github/workflows/deploy-standalone.yml'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+        with:
+          path: city
+
+      - name: Checkout parent repository
+        uses: actions/checkout@v4
+        with:
+          repository: EqualStreetNames/equalstreetnames
+          path: parent
+          ref: master
+
+      - name: Initialize website submodule
+        run: |
+          cd parent
+          git submodule update --init website
+
+      - name: Link city as submodule
+        run: |
+          # Replace COUNTRY/CITY with your city path (e.g., belgium/brussels)
+          mkdir -p parent/cities/${CITY_PATH%/*}
+          ln -s $GITHUB_WORKSPACE/city parent/cities/$CITY_PATH
+        env:
+          CITY_PATH: ${{ vars.CITY_PATH || 'template/city' }}
+
+      - name: Configure build
+        run: |
+          cd parent/website
+          # Add build script for this city
+          npm pkg set scripts.build:${{ env.CITY_KEY }}="node build.js -c $CITY_PATH"
+          # Patch build.js to add --public-url flag for GitHub Pages
+          sed -i "s/parcel build/parcel build --public-url \/${{ github.event.repository.name }}/" build.js
+        env:
+          CITY_PATH: ${{ vars.CITY_PATH || 'template/city' }}
+          CITY_KEY: ${{ vars.CITY_KEY || 'template-city' }}
+
+      - name: Build website
+        run: |
+          cd parent/website
+          npm run build:${{ env.CITY_KEY }}
+        env:
+          NODE_ENV: production
+          CITY_KEY: ${{ vars.CITY_KEY || 'template-city' }}
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: parent/website/dist/${{ vars.CITY_PATH || 'template/city' }}
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
