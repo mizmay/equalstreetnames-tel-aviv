@@ -24,12 +24,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout this repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           path: city
 
       - name: Checkout parent repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: EqualStreetNames/equalstreetnames
           path: parent
@@ -47,6 +47,11 @@ jobs:
           ln -s $GITHUB_WORKSPACE/city parent/cities/$CITY_PATH
         env:
           CITY_PATH: ${{ vars.CITY_PATH || 'template/city' }}
+
+      - name: Install dependencies
+        run: |
+          cd parent/website
+          npm install
 
       - name: Configure build
         run: |
