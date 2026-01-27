@@ -24,12 +24,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout this repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           path: city
 
       - name: Checkout parent repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           repository: EqualStreetNames/equalstreetnames
           path: parent
@@ -45,21 +45,12 @@ jobs:
           mkdir -p parent/cities/israel
           ln -s $GITHUB_WORKSPACE/city parent/cities/israel/tel-aviv
 
-      - name: Apply MapLibre patches
+      - name: Configure build
         run: |
           cd parent/website
-
-          # Update package.json to use MapLibre instead of Mapbox
-          npm install maplibre-gl@^5.0.0
-          npm uninstall mapbox-gl || true
-
-          # Add Tel Aviv build script with public-url for GitHub Pages
+          # Add build script for this city
           npm pkg set scripts.build:israel:tel-aviv="node build.js -c israel/tel-aviv"
-
-          # Copy patched map.ts with MapLibre support
-          cp $GITHUB_WORKSPACE/city/.github/patches/map.ts src/script/map.ts
-
-          # Patch build.js to add --public-url flag for Parcel
+          # Patch build.js to add --public-url flag for GitHub Pages
           sed -i "s/parcel build/parcel build --public-url \/equalstreetnames-tel-aviv/" build.js
 
       - name: Build website
