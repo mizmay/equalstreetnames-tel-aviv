@@ -48,6 +48,11 @@ jobs:
         env:
           CITY_PATH: ${{ vars.CITY_PATH || 'template/city' }}
 
+      - name: Install dependencies
+        run: |
+          cd parent/website
+          npm install
+
       - name: Configure build
         run: |
           cd parent/website
