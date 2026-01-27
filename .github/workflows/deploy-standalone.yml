@@ -3,7 +3,7 @@ name: Deploy Standalone
 on:
   workflow_dispatch:
   push:
-    branches: [add-maplibre-option]
+    branches: [main, master]
     paths:
       - 'data/**'
       - 'html/**'
