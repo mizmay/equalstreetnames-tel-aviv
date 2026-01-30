@@ -24,12 +24,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout this repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           path: city
 
       - name: Checkout parent repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: EqualStreetNames/equalstreetnames
           path: parent
@@ -42,8 +42,11 @@ jobs:
 
       - name: Link city as submodule
         run: |
-          mkdir -p parent/cities/israel
-          ln -s $GITHUB_WORKSPACE/city parent/cities/israel/tel-aviv
+          # Replace COUNTRY/CITY with your city path (e.g., belgium/brussels)
+          mkdir -p parent/cities/${CITY_PATH%/*}
+          ln -s $GITHUB_WORKSPACE/city parent/cities/$CITY_PATH
+        env:
+          CITY_PATH: ${{ vars.CITY_PATH || 'template/city' }}
 
       - name: Install dependencies
         run: |
@@ -54,21 +57,25 @@ jobs:
         run: |
           cd parent/website
           # Add build script for this city
-          npm pkg set scripts.build:israel:tel-aviv="node build.js -c israel/tel-aviv"
+          npm pkg set scripts.build:${{ env.CITY_KEY }}="node build.js -c $CITY_PATH"
           # Patch build.js to add --public-url flag for GitHub Pages
-          sed -i "s/parcel build/parcel build --public-url \/equalstreetnames-tel-aviv/" build.js
+          sed -i "s/parcel build/parcel build --public-url \/${{ github.event.repository.name }}/" build.js
+        env:
+          CITY_PATH: ${{ vars.CITY_PATH || 'template/city' }}
+          CITY_KEY: ${{ vars.CITY_KEY || 'template-city' }}
 
       - name: Build website
         run: |
           cd parent/website
-          npm run build:israel:tel-aviv
+          npm run build:${{ env.CITY_KEY }}
         env:
           NODE_ENV: production
+          CITY_KEY: ${{ vars.CITY_KEY || 'template-city' }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: parent/website/dist/israel/tel-aviv
+          path: parent/website/dist/${{ vars.CITY_PATH || 'template/city' }}
 
   deploy:
     needs: build
