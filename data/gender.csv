@@ -55,3 +55,1236 @@ name,source,gender,wikidata,type
 שינקין,wikidata,M,Q12409293,way
 שלוש,wikidata,M,Q4694981,way
 "שמעון בר יוחאי",wikidata,M,Q557405,way
+"בוני העיר",csv,+,,way
+אבוקה,csv,-,,way
+אדירים,csv,-,,way
+אדר,csv,-,,way
+"אהבת ציון",csv,-,,way
+אוגרית,csv,-,,way
+אופיר,csv,-,,way
+אופקים,csv,-,,way
+"אור החיים",csv,-,,way
+אורים,csv,-,,way
+אזוב,csv,-,,way
+"אח""י דקר",csv,-,,way
+אחווה,csv,-,,way
+"אחוזת בית",csv,-,,way
+אחילוף,csv,-,,way
+"איילון דרום",csv,-,,way
+"איילון צפון",csv,-,,way
+"איילת השחר",csv,-,,way
+אייר,csv,-,,way
+איל״ן,csv,-,,way
+אירוס,csv,-,,way
+אלול,csv,-,,way
+"אלוף בצלות",csv,-,,way
+אלמגור,csv,-,,way
+אמונים,csv,-,,way
+אמירים,csv,-,,way
+"אמנון ותמר",csv,-,,way
+אמסטרדם,csv,-,,way
+אמץ,csv,-,,way
+"אני מאמין",csv,-,,way
+"אסירי ציון",csv,-,,way
+"אפ""ק",csv,-,,way
+"אצ""ל",csv,-,,way
+"ארבע ארצות",csv,-,,way
+ארנון,csv,-,,relation
+אשדוד,csv,-,,way
+אשקלון,csv,-,,way
+"באר טוביה",csv,-,,way
+"באר שבע",csv,-,,way
+בבלי,csv,-,,way
+בדולח,csv,-,,way
+בורמה,csv,-,,way
+בושם,csv,-,,way
+בזל,csv,-,,way
+בילטמור,csv,-,,way
+ביצרון,csv,-,,way
+ביריה,csv,-,,way
+בירנית,csv,-,,way
+"בית אורן",csv,-,,way
+"בית אל",csv,-,,way
+"בית אלפא",csv,-,,way
+"בית אשל",csv,-,,way
+"בית גוברין",csv,-,,way
+"בית הבד",csv,-,,way
+"בית הקציר",csv,-,,way
+"בית חדש",csv,-,,way
+"בית חורון",csv,-,,way
+"בית יצקר",csv,-,,way
+"בית ירח",csv,-,,way
+"בית לחם",csv,-,,way
+"בית עובד",csv,-,,way
+"בית פלט",csv,-,,way
+"בית קשת",csv,-,,way
+"בית רעים",csv,-,,way
+"בכורי ציון",csv,-,,way
+"בת גלים",csv,-,,way
+"בת חן",csv,-,,way
+"בת ים",csv,-,,way
+"בת עין",csv,-,,way
+"בת עמי",csv,-,,way
+גבולות,csv,-,,way
+"גוש חלב",csv,-,,way
+"גוש עציון",csv,-,,way
+גזית,csv,-,,way
+גזר,csv,-,,way
+גייגר,csv,-,,way
+גינוסר,csv,-,,way
+"גן הפסלים",csv,-,,way
+געש,csv,-,,way
+"גשר ""הקריה""",csv,-,,way
+"גשר היהלומים",csv,-,,way
+"גשר המכביה ה-15",csv,-,,way
+"גשר המכנסיים",csv,-,,way
+"גשר המשאלות",csv,-,,way
+"גשר התערוכה",csv,-,,way
+"גשר חלון ליפו",csv,-,,way
+"גשר נחושתן",csv,-,,way
+"גשר עמק ברכה",csv,-,,way
+"גשר ראש ציפור",csv,-,,way
+"גשרון גהה מערב",csv,-,,way
+"גת רימון",csv,-,,way
+דגן,csv,-,,way
+דגניה,csv,-,,way
+דודאים,csv,-,,way
+דקל,csv,-,,way
+דרור,csv,-,,way
+"דרך ההגנה",csv,-,,way
+"דרך הפארק",csv,-,,way
+"דרך לוד",csv,-,,way
+האגוז,csv,-,,way
+האומנים,csv,-,,way
+האסיף,csv,-,,way
+האספרגוס,csv,-,,way
+האקליפטוס,csv,-,,way
+הארד,csv,-,,way
+האשכולית,csv,-,,way
+האתרוג,csv,-,,way
+הברוש,csv,-,,way
+הברזל,csv,-,,way
+הבשן,csv,-,,way
+הגבורה,csv,-,,way
+הגולן,csv,-,,way
+"הגיבור האלמוני",csv,-,,way
+הגיבורים,csv,-,,way
+הגיחון,csv,-,,way
+הגלבוע,csv,-,,way
+הגליל,csv,-,,way
+הגלעד,csv,-,,way
+"הגמנסיה העברית",csv,-,,way
+הגפן,csv,-,,way
+הדגל,csv,-,,way
+הדואר,csv,-,,way
+הדולפין,csv,-,,way
+הדייגים,csv,-,,way
+הדמומית,csv,-,,way
+ההדס,csv,-,,way
+הותיקים,csv,-,,way
+הזית,csv,-,,way
+הזמיר,csv,-,,way
+הזרם,csv,-,,way
+החבצלת,csv,-,,way
+החותרים,csv,-,,way
+החיזיון,csv,-,,way
+החצב,csv,-,,way
+החצוצרה,csv,-,,way
+החרוב,csv,-,,way
+החרמון,csv,-,,way
+החרמש,csv,-,,way
+החרצית,csv,-,,way
+החרש,csv,-,,way
+החשמל,csv,-,,way
+"היכל התלמוד",csv,-,,way
+היסוד,csv,-,,way
+היסמין,csv,-,,way
+הירדן,csv,-,,way
+הירקון,csv,-,,relation+way
+היתד,csv,-,,way
+הכובשים,csv,-,,way
+הכינור,csv,-,,way
+הכישור,csv,-,,way
+הכלנית,csv,-,,way
+"הכנסת הגדולה",csv,-,,way
+הכרם,csv,-,,relation
+הכרמל,csv,-,,way
+הלוטוס,csv,-,,way
+הלימון,csv,-,,way
+הלענה,csv,-,,way
+הלפיד,csv,-,,way
+המאבק,csv,-,,way
+המבצעים,csv,-,,way
+המגדלור,csv,-,,way
+המגן,csv,-,,way
+המחוגה,csv,-,,way
+המכבש,csv,-,,way
+המלאכה,csv,-,,way
+המלחים,csv,-,,way
+המנוע,csv,-,,way
+המנור,csv,-,,way
+המעיין,csv,-,,way
+המעפילים,csv,-,,way
+המערכה,csv,-,,way
+המצפן,csv,-,,way
+המקצוע,csv,-,,way
+המרגנית,csv,-,,way
+המרד,csv,-,,way
+המשביר,csv,-,,way
+המשלטים,csv,-,,way
+"המשמר האזרחי",csv,-,,way
+המשנה,csv,-,,way
+המתנדב,csv,-,,way
+הנגב,csv,-,,way
+הנגרים,csv,-,,way
+הנדיב,csv,-,,way
+הנוטר,csv,-,,way
+הנחושת,csv,-,,way
+הניצנים,csv,-,,way
+הסדנה,csv,-,,way
+הסוללים,csv,-,,way
+הסנה,csv,-,,way
+הספינה,csv,-,,way
+העבודה,csv,-,,way
+העוגב,csv,-,,way
+העוגן,csv,-,,way
+העלייה,csv,-,,way
+העמל,csv,-,,way
+הערמון,csv,-,,way
+"העתק פסיפס בית אלפא",csv,-,,way
+הפורצים,csv,-,,way
+הפטיש,csv,-,,way
+הפלך,csv,-,,way
+הפנינים,csv,-,,way
+הפרגים,csv,-,,way
+הפרדס,csv,-,,way
+"הפרטיזן היהודי",csv,-,,way
+הפרסה,csv,-,,way
+הצבי,csv,-,,way
+הצבר,csv,-,,way
+הצדף,csv,-,,way
+הצורפים,csv,-,,way
+הציפורן,csv,-,,way
+הצלף,csv,-,,way
+"הצפון החדש - החלק הדרומי",csv,-,,relation
+"הצפון החדש - החלק הצפוני",csv,-,,relation
+"הצפון החדש - סביבת ככר המדינה",csv,-,,relation
+הצפירה,csv,-,,way
+הקונגרס,csv,-,,way
+הקיקיון,csv,-,,way
+הקישון,csv,-,,way
+הקרן,csv,-,,way
+הקשת,csv,-,,way
+"הר נבו",csv,-,,way
+"הר סיני",csv,-,,way
+הרדוף,csv,-,,way
+הרותם,csv,-,,way
+הרימון,csv,-,,way
+הרכב,csv,-,,way
+הרכבת,csv,-,,way
+הרקפת,csv,-,,way
+השומר,csv,-,,way
+השומרון,csv,-,,way
+השופר,csv,-,,way
+השוק,csv,-,,way
+השחף,csv,-,,way
+השחקנים,csv,-,,way
+השחר,csv,-,,way
+השיבולת,csv,-,,way
+השיטה,csv,-,,way
+השיירות,csv,-,,way
+השילוח,csv,-,,way
+השכל,csv,-,,way
+השלום,csv,-,,way
+השעורה,csv,-,,way
+השפלה,csv,-,,way
+השקמה,csv,-,,way
+השרביט,csv,-,,way
+השרון,csv,-,,way
+התאנה,csv,-,,way
+התבור,csv,-,,way
+התורן,csv,-,,way
+התחיה,csv,-,,way
+התמר,csv,-,,way
+התנופה,csv,-,,way
+התערוכה,csv,-,,way
+התעשיה,csv,-,,way
+התקוה,csv,-,,way
+התקומה,csv,-,,way
+זיקים,csv,-,,way
+זרעים,csv,-,,way
+"חברה חדשה",csv,-,,way
+חברון,csv,-,,way
+"חומה ומגדל",csv,-,,way
+"חיי אדם",csv,-,,way
+"חיל השריון",csv,-,,way
+חלמית,csv,-,,way
+חצור,csv,-,,way
+חצרים,csv,-,,way
+טבריה,csv,-,,way
+טבת,csv,-,,way
+"טורי זהב",csv,-,,way
+"טיילת איילון",csv,-,,way
+"טיילת המדע",csv,-,,way
+"טיילת השער ליפו",csv,-,,way
+יבנה,csv,-,,way
+יגור,csv,-,,way
+"יגיע כפיים",csv,-,,way
+"יד המעביר",csv,-,,way
+"יד חרוצים",csv,-,,way
+יודפת,csv,-,,way
+יורה,csv,-,,way
+"ילקוט הרועים",csv,-,,way
+"ים סוף",csv,-,,way
+ימין,csv,-,,way
+"יסוד המעלה",csv,-,,way
+יסעור,csv,-,,way
+יעל,csv,-,,way
+יפעת,csv,-,,way
+"יציאת אירופה",csv,-,,way
+יקנטון,csv,-,,way
+יריחו,csv,-,,way
+"כביש גהה",csv,-,,way
+"כביש ירושלים תל אביב",csv,-,,way
+"כביש תל אביב ירושלים",csv,-,,way
+"כביש תל-אביב נתניה",csv,-,,way
+"כיכר אתרים",csv,-,,relation
+"כיכר הדמוקרטיה",csv,-,,way
+"כיכר הכנסת",csv,-,,relation
+"כיכר המושבה",csv,-,,relation
+"כיכר השואה והתקומה",csv,-,,way
+"כיכר השעות היפות",csv,-,,way
+"כיכר מגן דוד",csv,-,,way
+"כיכר מוזיאון תל אביב",csv,-,,relation
+"כיכר קדומים",csv,-,,way
+"כיכר קצה השדרה",csv,-,,way
+כינרת,csv,-,,way
+כיסופים,csv,-,,way
+"כל ישראל חברים",csv,-,,way
+"כנפי נשרים",csv,-,,way
+כסלו,csv,-,,way
+כרמלית,csv,-,,way
+"מאור עינים",csv,-,,way
+"מבצע קדש",csv,-,,way
+מגדל,csv,-,,way
+מגידו,csv,-,,way
+"מדרגות אנדרומדה",csv,-,,way
+מולדת,csv,-,,way
+מור,csv,-,,way
+מורשת,csv,-,,way
+"מזל אריה",csv,-,,way
+"מזל בתולה",csv,-,,way
+"מזל גדי",csv,-,,way
+"מזל דגים",csv,-,,way
+"מזל דלי",csv,-,,way
+"מזל טלה",csv,-,,way
+"מזל מאזניים",csv,-,,way
+"מזל סרטן",csv,-,,way
+"מזל עקרב",csv,-,,way
+"מזל קשת",csv,-,,way
+"מזל שור",csv,-,,way
+"מזל תאומים",csv,-,,way
+מחרוזת,csv,-,,way
+מנוחה,csv,-,,way
+מנורה,csv,-,,way
+"מנורת המאור",csv,-,,way
+"מסילה א",csv,-,,way
+"מסילה ב",csv,-,,way
+"מסילת העולים",csv,-,,way
+"מסילת ישרים",csv,-,,way
+"מסילת עולם",csv,-,,way
+"מסלול החושים האתגרי",csv,-,,way
+מצדה,csv,-,,way
+מצפה,csv,-,,way
+מרגוע,csv,-,,way
+"מרכז בעלי מלאכה",csv,-,,way
+"משמר הגבול",csv,-,,way
+"משמר הירדן",csv,-,,way
+נבטים,csv,-,,way
+נגבה,csv,-,,way
+"נווה צדק",csv,-,,way
+"נווה שלום",csv,-,,way
+"נחל איילון",csv,-,,way
+"נחל הבשור",csv,-,,way
+"נחל עוז",csv,-,,way
+"נחל שורק",csv,-,,way
+נחלאות,csv,-,,way
+"ניר עם",csv,-,,way
+"נמל יפו",csv,-,,way
+"נמל תל אביב",csv,-,,way
+"נס הרים",csv,-,,way
+"נס לגויים",csv,-,,way
+"נס ציונה",csv,-,,way
+"נצח ישראל",csv,-,,way
+"נתיב המזלות",csv,-,,way
+נתיבות,csv,-,,way
+סביון,csv,-,,way
+סמדר,csv,-,,way
+"סמטת הגינה",csv,-,,way
+"סמטת החובבים",csv,-,,way
+"סמטת החרמון",csv,-,,way
+"סמטת הכרמל",csv,-,,way
+"סמטת הר ציון",csv,-,,way
+"סמטת השוק",csv,-,,way
+"סמטת זנגביל",csv,-,,way
+"סמטת זרת",csv,-,,way
+"סמטת מסלול",csv,-,,way
+"סמטת משמר הירדן",csv,-,,way
+"סמטת נוה צדק",csv,-,,way
+סנפיר,csv,-,,way
+"עין גב",csv,-,,way
+"עין גדי",csv,-,,way
+"עין גנים",csv,-,,way
+"עין ורד",csv,-,,way
+"עין זיתים",csv,-,,way
+"עין חרוד",csv,-,,way
+"עיר שמש",csv,-,,way
+"על פרשת דרכים",csv,-,,way
+"עמק איילון",csv,-,,way
+"עמק ברכה",csv,-,,way
+"עשר טחנות",csv,-,,way
+"פאת השולחן",csv,-,,way
+פילדלפיה,csv,-,,way
+פלוגות,csv,-,,way
+פעמונית,csv,-,,way
+פראג,csv,-,,way
+"פרי עץ חיים",csv,-,,way
+פרנקפורט,csv,-,,way
+"צמחי היהודים",csv,-,,way
+צנובר,csv,-,,way
+צפת,csv,-,,way
+"קיבוץ גלויות",csv,-,,way
+"ראש פינה",csv,-,,way
+"ראשון לציון",csv,-,,way
+ראשונים,csv,-,,way
+"ראשית חכמה",csv,-,,way
+"רחבת בית המכס",csv,-,,way
+"רחבת הסינימטק",csv,-,,way
+"רחבת הסינמטק",csv,-,,way
+"שביל דרך הגבורה",csv,-,,way
+"שביל האור",csv,-,,way
+"שביל החלב",csv,-,,way
+"שביל המרץ",csv,-,,way
+"שביל עכו",csv,-,,way
+שבלים,csv,-,,way
+"שבעת השיקמים",csv,-,,way
+"שדרות ההשכלה",csv,-,,way
+"שדרות הותיקים",csv,-,,way
+"שדרות הנביאים",csv,-,,way
+"שדרות הציונות",csv,-,,way
+"שדרות הר ציון",csv,-,,way
+"שדרות השושנים",csv,-,,way
+"שדרות ירושלים",csv,-,,way
+"שדרות ששת הימים",csv,-,,way
+"שדרות תרס""ט",csv,-,,way
+שורשים,csv,-,,way
+שיבולים,csv,-,,way
+"שיבת ציון",csv,-,,way
+"שלום אש",csv,-,,way
+"שלושת החיצים",csv,-,,way
+"שער הגיא",csv,-,,way
+"שער ציון",csv,-,,way
+"שערי תשובה",csv,-,,way
+"שפע טל",csv,-,,way
+"שפתי ישנים",csv,-,,way
+שקד,csv,-,,way
+שריד,csv,-,,way
+שתולים,csv,-,,way
+"תבואות הארץ",csv,-,,way
+"תוצרת הארץ",csv,-,,way
+תושיה,csv,-,,way
+תות,csv,-,,way
+תירוש,csv,-,,way
+תמוז,csv,-,,way
+תמנע,csv,-,,way
+תפוח,csv,-,,way
+"תש""ח",csv,-,,way
+תשרי,csv,-,,way
+תש״ח,csv,-,,way
+אב,csv,?,,way
+אפק,csv,?,,way
+ב',csv,?,,way
+"'דליה רביקוביץ",csv,F,,way
+אביטל,csv,F,,way
+"אדיל עאזר",csv,F,,way
+אוז'שקובה,csv,F,,way
+"אליזבת ברגנר",csv,F,,way
+"אסתר המלכה",csv,F,,way
+"בילויה מעוז",csv,F,,way
+"בת שבע דה רוטשילד",csv,F,,way
+"בת שבע כצנלסון",csv,F,,way
+"בתיה (לישנסקי)",csv,F,,way
+"גורית קדמן",csv,F,,way
+"גז מטילדה",csv,F,,way
+"גרטרוד קראוס",csv,F,,way
+"דבורה הנביאה",csv,F,,way
+דיצה,csv,F,,way
+דפנה,csv,F,,way
+"הנרייטה סולד",csv,F,,way
+"זהרה לביטוב",csv,F,,way
+"זהרירה חריפאי",csv,F,,way
+"זלדה (שניאורסון מישקובסקי)",csv,F,,way
+"חביבה רייך",csv,F,,way
+חולדה,csv,F,,way
+"חנה אורלוף",csv,F,,way
+"חנה ומרדכי וייסר",csv,F,,way
+"חנה זמר",csv,F,,way
+"חנה מרון",csv,F,,way
+"חנה סנש",csv,F,,way
+"חנה רובינא",csv,F,,way
+"טובה סנהדראי",csv,F,,way
+"יוכבד בת מרים",csv,F,,way
+"כיכר דיזנגוף (צינה)",csv,F,,way
+"כיכר היובל ע""ש אביבה ואורספלבר",csv,F,,way
+"כיכר חנה אבנור",csv,F,,way
+לאה,csv,F,,way
+"לאה ודוד איזמוז'יק",csv,F,,way
+"לילי מנחם",csv,F,,way
+"מרים החשמונאית",csv,F,,way
+"נאדיה חילו",csv,F,,way
+נורית,csv,F,,way
+נחמה,csv,F,,way
+"סמטה אלמונית",csv,F,,way
+"סמטה פלונית",csv,F,,way
+"סמטת שרה עזריהו",csv,F,,way
+פועה,csv,F,,way
+"פרופ' פנינה זלצמן",csv,F,,way
+רבינא,csv,F,,way
+"רבקה גובר",csv,F,,way
+"רבקה ושמעון אבולעפיה",csv,F,,way
+"רבקה זיו",csv,F,,way
+רוחמה,csv,F,,way
+רות,csv,F,,way
+"רות רובין-פלד",csv,F,,way
+רחל,csv,F,,way
+"שדרות יהודית",csv,F,,way
+שולמית,csv,F,,way
+"שושנה דואר",csv,F,,way
+"שושנה פרסיץ",csv,F,,way
+"שלומציון המלכה",csv,F,,way
+"שרירא גאון",csv,F,,way
+"שתי האחיות",csv,F,,way
+"תג'ר ציונה",csv,F,,way
+"אבא אחימאיר",csv,M,,way
+"אבא ברדיצ'ב",csv,M,,way
+"אבא קובנר",csv,M,,way
+אבודרהם,csv,M,,way
+אבולעפיה,csv,M,,way
+אבטליון,csv,M,,way
+אביאסף,csv,M,,way
+"אביגדור המאירי",csv,M,,way
+"אבידן שמעון",csv,M,,way
+אבימלך,csv,M,,way
+"אביצור שמואל",csv,M,,way
+אבישי,csv,M,,way
+"אבן חלדון",csv,M,,way
+"אבן סינא",csv,M,,way
+"אבן ספיר",csv,M,,way
+"אבן רשד",csv,M,,way
+אבנר,csv,M,,way
+אברבנאל,csv,M,,way
+"אברהם אבן שושן",csv,M,,way
+"אברהם בויאר",csv,M,,way
+"אברהם ברוידס",csv,M,,way
+"אברהם ענתבי",csv,M,,way
+"אברהם שלונסקי",csv,M,,way
+"אבשלום חביב",csv,M,,way
+אגדתי,csv,M,,way
+אגריפס,csv,M,,way
+"אד קוץ'",csv,M,,way
+"אדוארד ברנשטיין",csv,M,,way
+"אדם ברוך",csv,M,,way
+"אדם הכהן",csv,M,,way
+אהוד,csv,M,,way
+"אהלי יעקב",csv,M,,way
+"אהרון בקר",csv,M,,way
+"אהרון דוד גורדון",csv,M,,way
+"אהרון מסקין",csv,M,,way
+אהרונוביץ',csv,M,,way
+"אהרן איתין",csv,M,,way
+אוארבך,csv,M,,way
+"אוהב ישראל",csv,M,,way
+אוליפנט,csv,M,,way
+אונטרמן,csv,M,,way
+אונקלוס,csv,M,,way
+"אוסוולדו ארניה",csv,M,,way
+"אוסיפ מנדלשטס",csv,M,,way
+אוסישקין,csv,M,,way
+"אוסקר שינדלר",csv,M,,way
+אופטושו,csv,M,,way
+אופנהיימר,csv,M,,way
+"אורי צבי גרינברג",csv,M,,way
+"אורי קיסרי",csv,M,,way
+"אוריאל אקוסטה",csv,M,,way
+אושה,csv,M,,way
+"אז""ר",csv,M,,way
+אחימעץ,csv,M,,way
+אחיעזר,csv,M,,way
+אחרון,csv,M,,way
+אידלסון,csv,M,,way
+אייבשיץ,csv,M,,way
+אייגר,csv,M,,way
+"אייזיק רמבה",csv,M,,way
+"אייזק חריף",csv,M,,way
+אימבר,csv,M,,way
+אינשטיין,csv,M,,way
+איסקוב,csv,M,,way
+איתיאל,csv,M,,way
+"איתמר בן אב""י",csv,M,,way
+"איתן לבני",csv,M,,way
+"אלבז נתן",csv,M,,way
+"אלדד הדני",csv,M,,way
+אלוף,csv,M,,way
+"אלוף אלברט מנדלר",csv,M,,way
+"אלוף קלמן מגן",csv,M,,way
+אלחריזי,csv,M,,way
+"אלי כהן",csv,M,,way
+אליאשברג,csv,M,,way
+"אליהו (קשאק) עמיקם",csv,M,,way
+"אליהו בחור",csv,M,,way
+"אליהו בית צורי",csv,M,,way
+"אליהו ברלין",csv,M,,way
+"אליהו גלעזר",csv,M,,way
+"אליהו חכים",csv,M,,way
+"אליהו מפרארה",csv,M,,way
+"אליהו ספיר",csv,M,,way
+"אליעז רפאל",csv,M,,way
+"אליעזר בן הורקנוס",csv,M,,way
+"אליעזר לבונה",csv,M,,way
+"אליעזר קשאני",csv,M,,way
+"אליעזר שטיינמן",csv,M,,way
+אליפלט,csv,M,,way
+אליקום,csv,M,,way
+אלישיב,csv,M,,way
+"אלכסנדר אוריה בוסקוביץ'",csv,M,,way
+"אלכסנדר ארגוב",csv,M,,way
+"אלכסנדר זייד",csv,M,,way
+"אלכסנדר ינאי",csv,M,,way
+"אלכסנדר פן",csv,M,,way
+אלנבי,csv,M,,relation+way
+"אלעזר בן יוסי",csv,M,,way
+"אלעזר בן עזריה",csv,M,,way
+"אלעזר החורני",csv,M,,way
+"אלעזר רוקח",csv,M,,way
+אלפסי,csv,M,,way
+אלקלעי,csv,M,,way
+אלרואי,csv,M,,way
+אלשיך,csv,M,,way
+אלתרמן,csv,M,,way
+אמזלג,csv,M,,way
+"אמיל זולא",csv,M,,relation+way
+"אמיר גלבוע",csv,M,,way
+אנגל,csv,M,,way
+אנדריוס,csv,M,,way
+אנדרסן,csv,M,,way
+אנוכי,csv,M,,way
+אנטוקולסקי,csv,M,,way
+אנטיגונוס,csv,M,,way
+אנסקי,csv,M,,way
+"אסא קדמוני",csv,M,,way
+"אסף הרופא",csv,M,,way
+אפטר,csv,M,,way
+אפלטון,csv,M,,way
+אפשטיין,csv,M,,way
+"אפשטיין יעקב",csv,M,,way
+"אקסלרוד נתן",csv,M,,way
+"ארדון מרדכי",csv,M,,way
+ארזי,csv,M,,way
+"ארטר יצחק",csv,M,,way
+אריאל,csv,M,,way
+"אריאל שרון",csv,M,,way
+"אריה אלטמן",csv,M,,way
+"אריה גלבלום",csv,M,,way
+"אריה דה מודינה",csv,M,,way
+"אריה דולצ'ין",csv,M,,way
+"אריה דיסנצ'יק",csv,M,,way
+"אריה לובה אליאב",csv,M,,way
+"אריה סוסליק",csv,M,,way
+"אריה עקיבא",csv,M,,way
+"אריה פסטרנק",csv,M,,way
+"אריה שרון",csv,M,,way
+אריסטו,csv,M,,way
+אריסטובולוס,csv,M,,way
+ארלוזורוב,csv,M,,way
+ארלינג'ר,csv,M,,way
+"ארתור רובינשטיין",csv,M,,way
+"אשר ברש",csv,M,,way
+"אשתורי הפרחי",csv,M,,way
+באכר,csv,M,,way
+באסולה,csv,M,,way
+"באר יעקב",csv,M,,way
+בארט,csv,M,,way
+בארי,csv,M,,way
+בובליק,csv,M,,way
+בוסל,csv,M,,way
+בוסתנאי,csv,M,,way
+בועז,csv,M,,way
+"בוקי בן יגלי",csv,M,,way
+בורוכוב,csv,M,,way
+ביילינסון,csv,M,,way
+ביירון,csv,M,,relation
+בירנבוים,csv,M,,way
+"בית הלל",csv,M,,way
+"בית יוסף",csv,M,,way
+"בית שמאי",csv,M,,way
+ביתוס,csv,M,,way
+בלבן,csv,M,,way
+"בלום ליאון",csv,M,,way
+בלפור,csv,M,,way
+בלקינד,csv,M,,way
+"בן אביגדור",csv,M,,way
+"בן אחיטוב",csv,M,,way
+"בן אשר",csv,M,,way
+"בן גמליאל",csv,M,,way
+"בן דוסא",csv,M,,way
+"בן הלל",csv,M,,way
+"בן זבארה",csv,M,,way
+"בן זומא",csv,M,,way
+"בן זכאי",csv,M,,way
+"בן חסד",csv,M,,way
+"בן ישי",csv,M,,way
+"בן סירא",csv,M,,way
+"בן סירה יעקב",csv,M,,way
+"בן סרוק",csv,M,,way
+"בן עזאי",csv,M,,way
+"בן עמי",csv,M,,way
+"בן פרחיה",csv,M,,way
+"בן צבי",csv,M,,way
+"בן צדוק אלעזר",csv,M,,way
+"בן שמן",csv,M,,way
+"בן שפרוט",csv,M,,way
+בנבנישתי,csv,M,,way
+"בנימין ברגי",csv,M,,way
+"בנימין מטודלה",csv,M,,way
+בצלאל,csv,M,,way
+"בצלאל יפה",csv,M,,way
+"בר אילן",csv,M,,way
+"בר גיורא",csv,M,,way
+"בר הופמן",csv,M,,way
+"בר יוחאי",csv,M,,way
+"בר כוכבא",csv,M,,way
+"ברוך קרוא",csv,M,,way
+"ברכיהו הנקדן",csv,M,,way
+"ג'ורג' אליוט",csv,M,,way
+"גבירטיג מרדכי",csv,M,,way
+"גבעת בן יהודה",csv,M,,way
+גוטליב,csv,M,,way
+"גן מאיר",csv,M,,way
+"גן פולק",csv,M,,way
+"גרשון ש""ץ",csv,M,,way
+"גשר אינשטיין",csv,M,,way
+"גשר בר יהודה",csv,M,,way
+"גשר ע""ש יצחק מודעי",csv,M,,way
+"ד""ר אלי תבין",csv,M,,way
+"ד""ר אריה (ליאון) פוחובסקי",csv,M,,way
+"ד""ר ארליך",csv,M,,way
+"ד""ר בודנהיימר",csv,M,,way
+"ד""ר ג'ורג וייז",csv,M,,way
+"ד""ר ולבה יואל",csv,M,,way
+"ד""ר ולטר מוזס",csv,M,,way
+"ד""ר חיים ברודי",csv,M,,way
+"ד""ר חיים מנחם בסוק",csv,M,,way
+"ד""ר יוסף פומרוק",csv,M,,way
+"ד""ר כרמי יוגב",csv,M,,way
+"ד""ר שלום לוין",csv,M,,way
+דאנטה,csv,M,,way
+"דב גרונר",csv,M,,way
+"דב האוזנר",csv,M,,way
+"דב הוז",csv,M,,relation
+"דב כרמי",csv,M,,way
+"דב ממזריץ",csv,M,,way
+"דבלין אלפרד",csv,M,,way
+"דה פיליפ אדיס (אבן זהר)",csv,M,,way
+"דוד אבידן",csv,M,,way
+"דוד אויסטרך",csv,M,,way
+"דוד אלמוג",csv,M,,way
+"דוד בוקשפן",csv,M,,way
+"דוד בלוך",csv,M,,way
+"דוד זליבנסקי",csv,M,,way
+"דוד חופשי",csv,M,,way
+"דוד חכמי",csv,M,,way
+"דוד טריטש",csv,M,,way
+"דוד ילין",csv,M,,way
+"דוד מרכוס",csv,M,,way
+"דוד רוטלוי",csv,M,,way
+"דוד רמז",csv,M,,way
+"דוד תדהר",csv,M,,way
+"דונולו הרופא",csv,M,,way
+"דימיטר פשב",csv,M,,way
+"דן לנר",csv,M,,way
+דניאל,csv,M,,way
+"דניאל סמבורסקי",csv,M,,way
+"דניאל פריש",csv,M,,way
+דרייפוס,csv,M,,way
+"דרך אריאל שרון",csv,M,,way
+"דרך שלמה",csv,M,,way
+"האחים אל-כוויתי",csv,M,,way
+"האחים בילסקי",csv,M,,way
+"האחים מסלאויטה",csv,M,,way
+"האלוף עוזי נרקיס",csv,M,,way
+"הארון אל רשיד",csv,M,,way
+"הברון הירש",csv,M,,way
+"הטיילת ע""ש שלמה להט",csv,M,,way
+"הטיילת ע״ש שלמה להט",csv,M,,way
+"היהודי זיס",csv,M,,way
+"היינריך מנדלסון",csv,M,,way
+"הלל הזקן",csv,M,,way
+"הלל עמר",csv,M,,way
+המגיד,csv,M,,way
+"המגיד מדובנא",csv,M,,way
+"המלך אלברט",csv,M,,way
+"המלך חירם",csv,M,,way
+"הסבא משפולה",csv,M,,way
+"הראובני דוד",csv,M,,way
+הראל,csv,M,,way
+"הרב אהרונסון",csv,M,,way
+"הרב אליהו שרים",csv,M,,way
+"הרב אלנקוה",csv,M,,way
+"הרב גליקסברג",csv,M,,way
+"הרב הלר חיים",csv,M,,way
+"הרב הרצוג",csv,M,,way
+"הרב יוסף צוברי",csv,M,,way
+"הרב יעקב טראב",csv,M,,way
+"הרב יצחק ידידיה פרנקל",csv,M,,way
+"הרב יצחק רובינשטיין",csv,M,,way
+"הרב יצחק רילף",csv,M,,way
+"הרב לוי יצחק",csv,M,,way
+"הרב מבכרך",csv,M,,way
+"הרב מויטבסק",csv,M,,way
+"הרב מלילוב",csv,M,,way
+"הרב מקוטוב",csv,M,,way
+"הרב מקוצק",csv,M,,way
+"הרב מקרלין",csv,M,,way
+"הרב מרק",csv,M,,way
+"הרב ניסים",csv,M,,way
+"הרב עובדיה בידאני",csv,M,,way
+"הרב עוזיאל",csv,M,,way
+"הרב עמיאל",csv,M,,way
+"הרב פרידמן",csv,M,,way
+"הרב צירלסון",csv,M,,way
+"הרב קוק",csv,M,,way
+"הרב שלמה גורן",csv,M,,way
+"הרבי מבכרך",csv,M,,way
+"הרבי מפשיסחא",csv,M,,way
+"הרבסט קרול",csv,M,,way
+"הרברט סמואל",csv,M,,relation+way
+"הרה""ג יחיא מחבוב",csv,M,,way
+"הרמן כהן",csv,M,,way
+הרצל,csv,M,,way
+"הרצל רוזנבלום",csv,M,,way
+"השופט חיים כהן",csv,M,,way
+"השופט נופך",csv,M,,way
+וולפסון,csv,M,,way
+"ויטל חיים",csv,M,,way
+"וייס איזיק הירש",csv,M,,way
+"וילהלם פילדרמן",csv,M,,way
+וינגייט,csv,M,,way
+ויסוצקי,csv,M,,way
+ויצמן,csv,M,,way
+"ויקטור הוגו",csv,M,,way
+"וקנין רפי",csv,M,,way
+ורד,csv,M,,way
+"ז'אן ז'ורס",csv,M,,relation
+"זאב ויינר",csv,M,,way
+"זאב רכטר",csv,M,,way
+זבולון,csv,M,,way
+"זהבי דוד",csv,M,,way
+"זכרון יעקב",csv,M,,way
+זכריה,csv,M,,way
+"זכריה פראנקל",csv,M,,way
+"זכריה רצאבי",csv,M,,way
+"זלמן מייזל",csv,M,,way
+"חביבי אמיל",csv,M,,way
+"חבקוק הנביא",csv,M,,way
+"חגי הנביא",csv,M,,way
+"חוני המעגל",csv,M,,way
+"חזקיהו המלך",csv,M,,way
+"חייבי משה",csv,M,,way
+"חיים אלפרין",csv,M,,way
+"חיים בן עטר",csv,M,,way
+"חיים ברלב",csv,M,,way
+"חיים הזז",csv,M,,way
+"חיים ואלישע",csv,M,,way
+"חיים חבשוש",csv,M,,way
+"חיים סירני",csv,M,,way
+"חיים שורר",csv,M,,way
+"חנאניא יעקוב ג'ורג'",csv,M,,way
+"חריף אייזיק",csv,M,,way
+"טאג'יר שמואל וסולטנה",csv,M,,way
+"טוביה הרופא",csv,M,,way
+טיומקין,csv,M,,way
+"טייב יצחק",csv,M,,way
+"טיילת מפרץ שלמה",csv,M,,way
+"טימן יעקב",csv,M,,way
+טרומפלדור,csv,M,,way
+טשרניחובסקי,csv,M,,way
+"י. ל. גורדון",csv,M,,way
+"י.ל. פרץ",csv,M,,way
+יאיר,csv,M,,way
+"יאיר רוזנבלום",csv,M,,way
+יבנאל,csv,M,,way
+יגאל,csv,M,,way
+"יגאל מוסינזון",csv,M,,way
+"ידעיה הפניני",csv,M,,way
+יהואש,csv,M,,relation
+"יהודה בורלא",csv,M,,way
+"יהודה גור",csv,M,,way
+"יהודה הימית",csv,M,,way
+"יהודה הלוי",csv,M,,way
+"יהודה המכבי",csv,M,,way
+"יהודה הנשיא",csv,M,,way
+"יהודה הצעיר",csv,M,,way
+"יהודה לייב הלוי ברסקי",csv,M,,way
+"יהודה מרגוזה",csv,M,,way
+"יהודה סומו",csv,M,,way
+"יהודה קרני",csv,M,,way
+"יהויכין סטוצ'בסקי",csv,M,,way
+יהונתן,csv,M,,way
+יהורם,csv,M,,way
+"יהושע בן נון",csv,M,,way
+"יהושע התלמי",csv,M,,way
+"יהושע רוזין",csv,M,,way
+יואב,csv,M,,way
+יואל,csv,M,,way
+"יוחנן הגדי",csv,M,,way
+"יוחנן הורקנוס",csv,M,,way
+"יוחנן הסנדלר",csv,M,,way
+יונדב,csv,M,,way
+"יונה הנביא",csv,M,,way
+"יונתן הופסי",csv,M,,way
+"יונתן רטוש",csv,M,,way
+"יוסי בן יוסי",csv,M,,way
+"יוסי בנאי",csv,M,,way
+"יוסי ידין",csv,M,,way
+"יוסף אליהו",csv,M,,way
+"יוסף אריכא",csv,M,,way
+"יוסף אשרמן",csv,M,,way
+"יוסף בוקסבאום",csv,M,,way
+"יוסף ברסלבי",csv,M,,way
+"יוסף דה לה ריינה",csv,M,,way
+"יוסף האפרתי",csv,M,,way
+"יוסף הייקל",csv,M,,way
+"יוסף הנשיא",csv,M,,way
+"יוסף הרמלין",csv,M,,way
+"יוסף יקותיאלי",csv,M,,way
+"יוסף לוי",csv,M,,way
+"יוסף לישנסקי",csv,M,,way
+"יוסף מילוא",csv,M,,way
+"יוסף סרלין",csv,M,,way
+"יוסף פעמוני",csv,M,,way
+יועזר,csv,M,,way
+יורם,csv,M,,way
+"יורם קניוק",csv,M,,way
+"יורק שטיינר",csv,M,,way
+יזהר,csv,M,,way
+יחזקאל,csv,M,,way
+"יחזקאל קויפמן",csv,M,,way
+"יחזקאל שטרייכמן",csv,M,,way
+"יחיא קאפח",csv,M,,way
+"יחיאל דב דרזנר",csv,M,,way
+"יחיאל שמי",csv,M,,way
+יחיאלי,csv,M,,way
+יחיעם,csv,M,,way
+יינון,csv,M,,way
+"יעקב אבוטבול",csv,M,,way
+"יעקב דורי",csv,M,,way
+"יעקב וייס",csv,M,,way
+"יעקב וסרמן",csv,M,,way
+"יעקב זרובבל",csv,M,,way
+"יעקב חזן",csv,M,,way
+"יעקב מרידור",csv,M,,way
+"יעקב סלע",csv,M,,way
+"יעקב ריפמן",csv,M,,way
+"יעקב שבתאי",csv,M,,way
+"יעקובוב אוריאל",csv,M,,way
+יפת,csv,M,,way
+יפתח,csv,M,,way
+"יצחק (זיקו) גרציאני",csv,M,,way
+"יצחק אבינרי",csv,M,,way
+"יצחק אולשן",csv,M,,way
+"יצחק אלחנן",csv,M,,way
+"יצחק ארצי",csv,M,,way
+"יצחק בשביס זינגר",csv,M,,way
+"יצחק ויטנברג",csv,M,,way
+"יצחק חיותמן",csv,M,,way
+"יצחק חילו",csv,M,,way
+"יצחק טבנקין",csv,M,,way
+"יצחק ישראלי",csv,M,,way
+"יצחק פרלשטיין",csv,M,,way
+"יצחק רבין",csv,M,,way
+"יצחק שדה",csv,M,,way
+יקותיאל,csv,M,,way
+"ירוחם משל",csv,M,,way
+ירמיהו,csv,M,,way
+ישעיהו,csv,M,,way
+"ישעיהו אברך",csv,M,,way
+"ישעיהו ליבוביץ",csv,M,,way
+"ישראל אשכנזי",csv,M,,way
+"ישראל ב""ק",csv,M,,way
+"ישראל בק",csv,M,,way
+"ישראל גלילי",csv,M,,way
+"ישראל טל",csv,M,,way
+"ישראל מסלנט",csv,M,,way
+"ישראל מריז'ין",csv,M,,way
+"ישראל שפירא",csv,M,,way
+"כ""ץ יעקב יוסף",csv,M,,way
+"כוכבי יצחק",csv,M,,way
+כורש,csv,M,,way
+"כיכר אהוד אבריאל",csv,M,,way
+"כיכר איינשטיין",csv,M,,way
+"כיכר אילן",csv,M,,way
+"כיכר איסר הראל",csv,M,,way
+"כיכר בצלאל",csv,M,,way
+"כיכר דימיטר פשב",csv,M,,relation
+"כיכר המלך אלברט",csv,M,,way
+"כיכר וולפסון",csv,M,,way
+"כיכר יוסי כרמל",csv,M,,way
+"כיכר שטרן מרדכי חיים",csv,M,,relation
+"כיכר שיח' בסאם אבו זיד",csv,M,,way
+"לאונרדו דה וינצ'י",csv,M,,way
+"לב אברהם",csv,M,,way
+לבנדובסקי,csv,M,,way
+"לבנדובסקי אליעזר",csv,M,,way
+"לואי מרשל",csv,M,,way
+"לואי פסטר",csv,M,,way
+"לובה אליאב",csv,M,,way
+"לוי אשכול",csv,M,,way
+"לויד ג'ורג'",csv,M,,way
+"לוין קיפניס",csv,M,,way
+"לוינסון אברהם",csv,M,,way
+לוריא,csv,M,,way
+"ליב בן שרה",csv,M,,way
+לינקולן,csv,M,,way
+ליפקין-שחק,csv,M,,way
+"לסר אורי",csv,M,,way
+"מאור יעקב שב""י",csv,M,,way
+"מאוריציו ויטלה",csv,M,,way
+"מאיר בינט",csv,M,,way
+"מאיר גרוסמן",csv,M,,way
+"מאיר יערי",csv,M,,way
+"מאיר מרגלית",csv,M,,way
+"מאיר נקר",csv,M,,way
+"מאיר פיינשטיין",csv,M,,way
+"מארק שגאל",csv,M,,way
+"מגן אברהם",csv,M,,way
+"מדרש פנחס",csv,M,,way
+"מהלל העדני",csv,M,,way
+"מהר""ל",csv,M,,way
+מודיליאני,csv,M,,way
+"מוחמד מרזוק",csv,M,,way
+"מוטה גור",csv,M,,way
+מוסינזון,csv,M,,way
+"מוריץ דניאל",csv,M,,way
+"מחנה יוסף",csv,M,,way
+"מיכאל נאמן",csv,M,,way
+מיכה,csv,M,,way
+מיכלאנג'לו,csv,M,,way
+"מיקוניס שמואל",csv,M,,way
+"מנדלי מוכר ספרים",csv,M,,way
+מנדלסון,csv,M,,way
+"מנהרת עוזי חיטמן",csv,M,,way
+"מנהרת קרליבך",csv,M,,way
+"מנחם ארבר",csv,M,,way
+"מנחם מדמון",csv,M,,way
+"מנחם מנדל בייליס",csv,M,,way
+"מנחם ריבולוב",csv,M,,way
+"מנשה בן ישראל",csv,M,,way
+"מסילת וולפסון",csv,M,,way
+"מקס ברוד",csv,M,,way
+מרגולין,csv,M,,way
+"מרדכי אלקחי",csv,M,,way
+"מרדכי אנילביץ'",csv,M,,way
+"מרדכי בנטוב",csv,M,,way
+"מרדכי זעירא",csv,M,,way
+"מרדכי מאייר",csv,M,,way
+"מרדכי מקלף",csv,M,,way
+"מרדכי רומנו",csv,M,,way
+"מרסל ינקו",csv,M,,way
+"מרק שגאל",csv,M,,way
+"משה ארם",csv,M,,way
+"משה ברזאני",csv,M,,way
+"משה בריל",csv,M,,way
+"משה הלוי",csv,M,,way
+"משה הס",csv,M,,way
+"משה וילנסקי",csv,M,,way
+"משה זכות",csv,M,,way
+"משה מאור",csv,M,,way
+"משה פרלוק",csv,M,,way
+"משה קול",csv,M,,way
+"משה שלוש",csv,M,,way
+"משה שמיר",csv,M,,way
+"משה שרת",csv,M,,way
+"משעול יוסף שמידט",csv,M,,way
+"משעול יעקב",csv,M,,way
+"מתתיהו כהן גדול",csv,M,,way
+"מתתיהו שוהם",csv,M,,way
+"נאמן יובל פרופסור",csv,M,,way
+נדב,csv,M,,way
+נועם,csv,M,,way
+נח,csv,M,,way
+"נחום גוטמן",csv,M,,way
+"נחום גולדמן",csv,M,,way
+"נחום הנביא",csv,M,,way
+"נחום וינשטיין",csv,M,,way
+"נחום סוקולוב",csv,M,,way
+"נחלת יצחק",csv,M,,way
+"נחמן מברסלב",csv,M,,way
+"ניסים אלוני",csv,M,,way
+"ניסן כהן",csv,M,,way
+ניסנבוים,csv,M,,way
+"נסאר ג'ורג'",csv,M,,way
+"נרדי נחום",csv,M,,way
+נתן,csv,M,,way
+"נתן אלבז",csv,M,,way
+"נתן החכם",csv,M,,relation
+סוטין,csv,M,,way
+"סטימצקי אביגדור",csv,M,,way
+"סטפן צווייג",csv,M,,way
+"סימן טוב",csv,M,,way
+סלומון,csv,M,,way
+"סמטת איתן",csv,M,,way
+"סמטת הש""ך",csv,M,,way
+"סמטת מיכה",csv,M,,way
+"סמטת שבזי",csv,M,,way
+"סעדיה גאון",csv,M,,way
+"סר ג'ון מונש",csv,M,,way
+"סר ווינסטון צ'רצ'יל",csv,M,,way
+"עבד אל גני",csv,M,,way
+"עבד אל ראוף אלביטאר",csv,M,,way
+"עובדיה הנביא",csv,M,,way
+"עובדיה מברטנורה",csv,M,,way
+עודד,csv,M,,way
+"עוזי חיטמן",csv,M,,way
+"עופר כהן",csv,M,,way
+"עזרא הסופר",csv,M,,way
+"עין יעקב",csv,M,,way
+"עמיחי יהודה",csv,M,,way
+"עמיחי פאגלין",csv,M,,way
+עמינדב,csv,M,,way
+עמיעד,csv,M,,way
+עמיקם,csv,M,,way
+עמישב,csv,M,,way
+"עמנואל טובים",csv,M,,way
+"עמנואל עמירן פוגצ'וב",csv,M,,way
+"עמרם גאון",csv,M,,way
+"עקיבא ברון",csv,M,,way
+"פאול צלאן",csv,M,,way
+"פופר לינקאוס יוסף",csv,M,,way
+"פישמן מיימון",csv,M,,way
+פלטיאל,csv,M,,way
+"פנחס בן יאיר",csv,M,,way
+"פנחס ספיר",csv,M,,way
+"פנץ נתן",csv,M,,way
+"פרידמן שרגא",csv,M,,way
+"פרנץ קפקא",csv,M,,way
+"פרץ חיות",csv,M,,way
+"צבי ברוק",csv,M,,way
+"צבי הרמן סגל",csv,M,,way
+"צבי הרמן שפירא",csv,M,,way
+"צבי נשרי",csv,M,,way
+"צבי סטרכילביץ",csv,M,,way
+"צבי פרופס",csv,M,,way
+"צבי פרידלנד",csv,M,,way
+"צבי פרייגרזון",csv,M,,way
+"צבי צור (צ'רה)",csv,M,,way
+"צביה לובטקין",csv,M,,way
+"צדוק הכהן",csv,M,,way
+"צהלון הרופא",csv,M,,way
+"קור פאול (קורנובסקי)",csv,M,,way
+"קורט טוכולסקי",csv,M,,way
+"קורצ'אק יאנוש",csv,M,,way
+"קיוסו אלברט",csv,M,,way
+"קיי דני (קמינסקי)",csv,M,,way
+"קלמר משה",csv,M,,way
+"קצנלסון יצחק",csv,M,,way
+"קריית שאול",csv,M,,way
+"קרל נטר",csv,M,,way
+קרליבך,csv,M,,way
+"קרפל ליפא",csv,M,,way
+"ראובן רובין",csv,M,,way
+"ראול ולנברג",csv,M,,way
+"רב אלוף דוד אלעזר",csv,M,,way
+"רבי אדא",csv,M,,way
+"רבי אחא",csv,M,,way
+"רבי חנינא",csv,M,,way
+"רבי יהודה חסיד",csv,M,,way
+"רבי יוחנן",csv,M,,way
+"רבי מאיר",csv,M,,way
+"רבי מאיר בעל הנס",csv,M,,way
+"רבי משה בן עזרא",csv,M,,way
+"רבי נחמן",csv,M,,way
+"רבי עקיבא",csv,M,,way
+"רבי פנחס",csv,M,,way
+"רבי תנחום",csv,M,,way
+"רבן גמליאל",csv,M,,way
+"רבנו חננאל",csv,M,,way
+"רבנו ירוחם",csv,M,,way
+"רבנו תם",csv,M,,way
+"רופא המחתרות",csv,M,,way
+"רחבעם זאבי",csv,M,,way
+"רחבת אריה אלחנני",csv,M,,relation
+"רחבת יוסף תמיר",csv,M,,way
+"רינהרט מקס",csv,M,,way
+"רמב""ם",csv,M,,way
+רמברנדט,csv,M,,way
+"רמות נפתלי",csv,M,,way
+"רפאל פוזיילוב",csv,M,,way
+"רש""י",csv,M,,way
+"ש""ץ",csv,M,,way
+"ש''י עגנון",csv,M,,way
+"שאול אביגור",csv,M,,way
+שבזי,csv,M,,way
+"שביל אופנידן איילון",csv,M,,way
+"שביל בן זאב",csv,M,,way
+"שביל בן יעקב",csv,M,,way
+"שביל ז'בוטינסקי",csv,M,,way
+"שביל יונתן",csv,M,,way
+"שבתאי דון-יחא",csv,M,,way
+"שגאל מרק",csv,M,,way
+"שד""ל",csv,M,,way
+"שדמי נחום",csv,M,,way
+"שדרות אלכסנדר ואנטוני מוקסל",csv,M,,relation
+"שדרות בן גוריון",csv,M,,relation
+"שדרות בן ציון",csv,M,,way
+"שדרות דוד המלך",csv,M,,way
+"שדרות וושינגטון",csv,M,,way
+"שדרות ישראל גורי",csv,M,,way
+"שדרות לוי אשכול",csv,M,,way
+"שדרות מוצקין",csv,M,,way
+"שדרות עמנואל הרומי",csv,M,,way
+"שוסטקוביץ' דמיטרי",csv,M,,way
+"שוקן זלמן",csv,M,,way
+"שייקה אופיר",csv,M,,way
+"שייקה דן",csv,M,,way
+"שלום עליכם",csv,M,,way
+"שלום רוזנפלד",csv,M,,way
+"שלמה בובר",csv,M,,way
+"שלמה בן יוסף",csv,M,,way
+"שלמה המלך",csv,M,,way
+"שלמה ליענר",csv,M,,way
+"שלמה קפלן",csv,M,,way
+"שלמה רובין",csv,M,,way
+"שלמה שילר",csv,M,,way
+"שמואל בן עדיה",csv,M,,way
+"שמואל ברקאי",csv,M,,way
+"שמואל הנגיד",csv,M,,way
+"שמואל ירחינאי",csv,M,,way
+"שמואל כהן יוחננוף",csv,M,,way
+"שמואל רומנילי",csv,M,,way
+"שמואל שניצר",csv,M,,way
+"שמואל תמיר",csv,M,,way
+"שמוליק סגל",csv,M,,way
+שמיר,csv,M,,way
+"שמעון בן שטח",csv,M,,way
+"שמעון ברנפלד",csv,M,,way
+"שמעון הבורסקאי",csv,M,,way
+"שמעון הצדיק",csv,M,,way
+"שמעון התרסי",csv,M,,way
+"שמעון סאמט",csv,M,,way
+"שמעון פינקל",csv,M,,way
+"שמעון צדיק",csv,M,,way
+"שמעון רוקח",csv,M,,way
+"שמריהו לוין",csv,M,,way
+שמשון,csv,M,,way
+שפינוזה,csv,M,,way
+"אבא ושרה נאמן",csv,X,,way
