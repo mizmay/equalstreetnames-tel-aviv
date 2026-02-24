@@ -1,121 +1,93 @@
-# EqualStreetNames City Template
+# EqualStreetNames Tel Aviv
 
-If you want to replicate the EqualStreetNames project in your city, here is the how-to !
+Gender-based street name map for Tel Aviv, Israel, forked from [EqualStreetNames](https://github.com/EqualStreetNames/equalstreetnames).
 
-## Setup
+## Workflows
 
-1. Click on the "Use this template" button above
+All `process.php` commands run from `~/Repos/equalstreetnames/process/`. Tel Aviv requires `-d memory_limit=512M` — the PHP default of 128MB is not sufficient.
 
-1. Update the *Overpass* queries :
+### Data Update
 
-    `overpass/relation-full-json.overpassql` (*example for Brussels, Belgium*)
+Run periodically to keep GeoJSON current with OpenStreetMap and Wikidata.
 
-    ```diff
-    - ( area["admin_level"=""]["wikidata"=""]; )->.a;
-    + ( area["admin_level"="4"]["wikidata"="Q240"]; )->.a;
-    ```
+```bash
+# 1. Fetch current street data from OpenStreetMap
+php -d memory_limit=512M process.php overpass --city=israel/tel-aviv
 
-    `overpass/way-full-json.overpassql` (*example for Brussels, Belgium*)
+# 2. Fetch gender data for streets with a wikidata tag in OSM
+php -d memory_limit=512M process.php wikidata --city=israel/tel-aviv
 
-    ```diff
-    - ( area["admin_level"=""]["wikidata"=""]; )->.a;
-    + ( area["admin_level"="4"]["wikidata"="Q240"]; )->.a;
-    ```
+# 3. Build ways.geojson and relations.geojson
+#    Applies manual overrides from data.csv if present
+php -d memory_limit=512M process.php geojson --city=israel/tel-aviv
 
-1. Find the *OpenStreetMap* relation of your city (example, [Brussels, Belgium](https://www.openstreetmap.org/relation/54094))
+# 4. Regenerate gender.csv, other.csv, and metadata.json
+php -d memory_limit=512M process.php statistics --city=israel/tel-aviv
+```
 
-1. Update `config.php` configuration file
+`data/other.csv` is the list of streets still without a gender designation.
 
-    1. **REQUIRED:** Add relation identifier (*example for Brussels, Belgium*).
+### Manual Import
 
-        ```diff
-        - 'relationId' => 0,
-        + 'relationId' => 54094,
-        ```
+Run when `other.csv` is manually updated.
 
-    1. *Optional:* Choose languages in which you want to extract Wiki informations with `languages` (English `en` by default).
+```bash
+# 1. Convert annotated CSV to data.csv and generate audit report
+# From ~/Repos/equalstreetnames-tel-aviv
+python3 scripts/import_other_csv.py <annotated-other.csv> data.csv data/other.csv
+# Audit report written to data/import_audit.csv
 
-    1. *Optional:* You can exclude ways or relations by adding the ways identifier in `exclude.way` and adding the relations identifier in `exclude.relation`.
+# 2. Rebuild GeoJSON applying the new data.csv overrides
+php -d memory_limit=512M process.php geojson --city=israel/tel-aviv
 
-    1. *Optional:* You can manually assign a gender to a way or a relation by adding the ways identifier and its gender in `gender.way` and adding the relations identifier and its gender in `gender.relation`. You can also use `data.csv` file to assign gender (and details) to a way or relation (see below).
+# 3. Update statistics
+php -d memory_limit=512M process.php statistics --city=israel/tel-aviv
+```
 
-    1. *Optional:* You can change the Wikidata instances that will be counted as "a person" with `instances`.
+See [Gender Codes](#gender-codes) for the alternative manual coding scheme, since spreadsheets are finicky about '+' and '-'.
 
-1. You can link information to a relation or way using a `data.csv` CSV file (see [Brussels, Belgium CSV file](https://github.com/EqualStreetNames/equalstreetnames-brussels/blob/master/data.csv))
+---
 
-    Structure:
+## Local Development
 
-    - `type`: *OpenStreetMap* object type (relation/way)
-    - `id`: *OpenStreetMap* object identifier
-    - `name`: *OpenStreetMap* street name
-    - `gender`: Gender
-    - `person`: Name of the person
-    - `description`: Description of the person
+```bash
+# Build and serve
+cd ~/Repos/equalstreetnames/website
+npm run build:israel:tel-aviv -- --serve
+# Open http://localhost:1234
+```
 
-1. Update the HTML files (replace `MyCity` by the name of your city in **all** `index.html` files, add languages, ...).
+After updating GeoJSON, kill and restart the server to rebuild:
 
-    (*example for Brussels, Belgium*)
+```bash
+lsof -ti:1234 | xargs kill -9
+npm run build:israel:tel-aviv -- --serve
+```
 
-    ```diff
-    - <title>EqualStreetNames.MyCity</title>
-    + <title>EqualStreetNames.Brussels</title>
+---
 
-    - <div id="loader-title">EqualStreetNames.MyCity</div>
-    + <div id="loader-title">EqualStreetNames.Brussels</div>
+## Gender Codes
 
-    - <a class="navbar-brand" href="#">EqualStreetNames.MyCity</a>
-    + <a class="navbar-brand" href="#">EqualStreetNames.Brussels</a>
-    ```
+`data/gender.csv`, `data/other.csv`, and `data.csv` use the following codes:
 
-## Integrate your city to the project
+| Code | Meaning |
+| ---- | ------- |
+| `F` | Female (cisgender) |
+| `M` | Male (cisgender) |
+| `+` | Multiple people (mixed gender) |
+| `-` | Not related to a person |
+| `X` | Intersex |
+| `?` | Unknown gender |
 
-1. Let us know you're ready to add a new city to the project by [opening a new discussion](https://github.com/orgs/EqualStreetNames/discussions/new?category=new-city).
+The import script also accepts these client shorthand codes: `FF`→`F`, `MM`/`m`→`M`, `N`/`NN`→`-`, `MU`→`+`.
 
-1. You have 2 options:
+`data.csv` (at repo root) is the manual override input for the process. Format:
 
-    1. Transfer your repository to the EqualStreetNames organization.
-
-       If you choose to do so, you stay of course "owner" of the repository, we'll create a team for you (and anyone you want) that will have admin rights on your repository.  
-       We'll help you maintain and manage your repository.  
-       We'll also setup an automated data update (once a month) and automated deployment of the website (if you need it). If you want more regular updates, you will need to create an `ACCESS_TOKEN` in your repository secrets with your [GitHub access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
-
-    1. Keep the ownership of your repository.
-
-       We'll just link your repository as sub-module in the [`cities` folder](https://github.com/EqualStreetNames/equalstreetnames/tree/master/cities).  
-       You'll have to maintain your repository, update the data, and the sub-module yourself.
-
-## Run your city locally
-
-1. Clone the main repository
-
-    ```cmd
-    git clone https://github.com/EqualStreetNames/equalstreetnames.git
-    ```
-
-1. Copy/Link your repository in the `cities` folder of the main repository (`cities/my-country/my-city`).
-
-1. Run the data update (in the `process` folder of the main repository)
-
-    ```cmd
-    cd process/
-    composer install
-    composer run update-data -- --city=my-country/my-city
-    ```
-
-1. Run the website locally (in the root folder of the main repository)
-
-    1. Add your city in the `"scripts"` section of the `website/package.json` file
-
-        ```diff
-        + "build:my-country:my-city": "node build.js -c my-country/my-city"
-        ```
-
-    1. Install JavaScript dependencies and run it (in the `website` folder of the main repository)
-
-        ```cmd
-        cd website/
-        npm install
-        npm run build:my-country:my-city -- --serve
-        ```
-
-1. Open <http://localhost:1234/>
+| Column | Description |
+| ------ | ----------- |
+| `type` | OSM object type (`way` or `relation`) |
+| `id` | OSM object ID |
+| `name` | Street name |
+| `gender` | Gender code |
+| `person` | Person's name (optional) |
+| `description` | Description (optional) |
